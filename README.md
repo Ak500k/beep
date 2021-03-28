@@ -1,3 +1,3 @@
-# beep!
+# Beep!
 
 Privacy and Security

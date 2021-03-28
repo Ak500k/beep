@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="passwd.js" defer></script>
+    <link rel="stylesheet" href="passwd.css">
+    <title>Beep!</title>
+</head>
+
+<body>
+    <dev class="header1">
+        <h1 class="h1_text"><span class="span_text"> Welcome to </span>Beep!</h1>
+    </dev>
+
+
+    <img class="logo" src="beep.png" height="250px" width="250">
+    <div class="">
+
+
+
+
+        <div class="container">
+            <h1 class="title">Beep! Password Generator</h1>
+            <h3 class="password-display" id="passwordDisplay">beep beep</h3>
+            <form id="passwordGeneratorForm" class="form">
+                <label for="characterAmountNumber">Number Of Characters</label>
+                <div class="character-amount-container">
+                    <input type="range" min="1" max="50" value="10" id="characterAmountRange">
+                    <input class="number-input" type="number" min="1" max="50" value="10" id="characterAmountNumber">
+                </div>
+
+                <label for="includeUppercase">Include Uppercase</label>
+                <input type="checkbox" id="includeUppercase">
+
+                <label for="includeNumbers">Include Numbers</label>
+                <input type="checkbox" id="includeNumbers">
+
+                <label for="includeSymbols">Include Symbols</label>
+                <input type="checkbox" id="includeSymbols">
+
+                <button type="submit" class="btn">Generate Password</button>
+            </form>
+        </div>
+</body>
+
+</html>

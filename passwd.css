@@ -19,6 +19,7 @@ body {
     position: absolute;
     top: 0px;
     left: 20px;
+    margin: 0%;
   }
   
 
@@ -30,7 +31,7 @@ body {
     color: #0cdf9f;
     position: absolute;
     top: 15px;
-    left: 39%;
+    left: 38%;
     display: flex;
     justify-content: center;
     text-align: center;

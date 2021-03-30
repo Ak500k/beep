@@ -18,20 +18,20 @@ body {
   .logo{
     position: absolute;
     top: 0px;
-    left: 20px;
+    left: 0px;
     margin: 0%;
   }
   
 
   .h1_text{
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 50;
     margin: 1rem 0 3rem;
     text-align: center;
     color: #0cdf9f;
     position: absolute;
-    top: 15px;
-    left: 38%;
+    top: 0px;
+    left: 37%;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -49,7 +49,7 @@ body {
 
   .container {
     background-color: #0890a8;
-    padding: 6rem;
+    padding: 4rem;
     border-radius: 2rem;
     border: 4px solid black;
     display: flex;
